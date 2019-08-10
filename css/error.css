@@ -1,0 +1,106 @@
+@font-face
+{
+	font-family: DestructoBeam BB;
+	src: local(DestructoBeam BB), url('../res/fonts/destructobeambb_reg.ttf') format('opentype');
+}
+
+@font-face
+{
+    font-family: DejaVu Sans;
+    src: local(DejaVu Sans), url('../res/fonts/DejaVuSans.ttf') format('opentype');
+}
+
+@font-face
+{
+	font-family: DejaVu Sans Light;
+	src: local(DejaVu Sans Light), url('../res/fonts/DejaVuSans-ExtraLight.ttf') format('opentype');
+}
+
+*
+{
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #424242;
+	color: white;
+	font-family: DestructoBeam BB;
+	text-shadow: 5px 5px 10px black;
+}
+
+a
+{
+	text-decoration: none;
+	color: yellow;
+}
+
+a:hover
+{
+	color: white;
+}
+
+#left
+{
+	animation: move_stripes 2s linear infinite;
+	-webkit-animation: move_stripes 2s linear infinite;
+	background: linear-gradient(45deg,black 25%,yellow 25%,yellow 50%,black 50%,black 75%,yellow 75%);
+	background-size:100px 100px;
+	position: fixed;
+	top: 0; 
+	bottom: 0;
+	width: 20px;
+	left: 0;
+}
+
+@keyframes move_stripes /*IE, Firefox, Opera*/
+{
+	0%
+	{
+		background-position: 0px 0px;
+	}
+	
+	100%
+	{
+		background-position: 0px 200px;
+	}
+}
+
+@-webkit-keyframes move_stripes /*Chrome, Safari*/
+{
+	0%
+	{
+		background-position: 0px 0px;
+	}
+	
+	100%
+	{
+		background-position: 0px 200px;
+	}
+}
+
+#message
+{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 21px;
+	font-family: DestructoBeam BB;
+	font-size: 200px;
+}
+
+#error
+{
+	min-height: 150px;
+	padding: 5px 10px 5px 10px;
+	position: fixed;
+	font-family: DejaVu Sans Light;
+	font-size: 20px;
+	left: 20px;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+}

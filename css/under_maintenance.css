@@ -1,0 +1,99 @@
+@font-face
+{
+    font-family: 'destructobeam_bbregular';
+    src: url('../res/fonts/destructobeambb_reg.eot');
+    src: url('../res/fonts/destructobeambb_reg.eot?#iefix') format('embedded-opentype'),
+	url('../res/fonts/destructobeambb_reg.woff') format('woff'),
+	url('../res/fonts/destructobeambb_reg.ttf') format('truetype'),
+	url('../res/fonts/destructobeambb_reg.svg#destructobeam_bbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+	overflow: hidden;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #424242;
+	font-weight: 1000px;
+	font-variant: normal;
+	font-style: normal;
+	line-height: 150px;
+	color: white;
+	text-shadow: 5px 5px 10px black;
+}
+
+#left
+{
+	animation: move_stripes 2s linear infinite;
+	-webkit-animation: move_stripes 2s linear infinite;
+	background: linear-gradient(45deg,
+	black 25%,
+    yellow 25%,
+	yellow 50%, 
+    black 50%,
+	black 75%, 
+    yellow 75%);
+	background-size:100px 100px;
+	position: fixed;
+	top: 0; 
+	bottom: 0;
+	width: 20px;
+	left: 0;
+}
+
+@keyframes move_stripes
+{
+	0%
+	{
+		background-position: 0px 0px;
+	}
+	
+	100%
+	{
+		background-position: 0px 200px;
+	}
+}
+
+@-webkit-keyframes move_stripes
+{
+	0%
+	{
+		background-position: 0px 0px;
+	}
+	
+	100%
+	{
+		background-position: 0px 200px;
+	}
+}
+
+#message
+{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 21px;
+	font-family: DestructoBeam BB;
+	font-size: 120px;
+}
+
+#resume_time
+{
+	position: fixed;
+	font-size: 30px;
+	left: 20px;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	padding-left: 10px;
+}
+
+span
+{
+	color: yellow;
+}

@@ -1,0 +1,61 @@
+body
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#content
+{
+	text-align: center;
+	font-family: Armata Regular;
+	font-size: 20px;
+	color: white;
+	line-height: 50px;
+}
+
+input /*text, textarea, submit, password*/
+{
+	height: 50px;
+	width: 50%;
+	background-color: rgba(41,128,185,0.5);
+	font-size: 20px;
+	font-family: Armata Regular;
+	text-align: center;
+	border: 0px;
+	color: white;
+	margin: 2px 0px 2px 0px;
+}
+
+input[name="submit"]
+{
+	display: block;
+	cursor: hand;
+	cursor: pointer;
+	margin-left:25%;
+	border-radius: 360px 360px 360px 360px;
+}
+
+::-webkit-input-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}
+::-moz-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}
+input:-moz-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}
+:-ms-input-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}

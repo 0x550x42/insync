@@ -1,0 +1,81 @@
+#content
+{
+	font-family: Armata Regular;
+	font-size:20px;
+	margin: 50px 0px 50px 0px;
+	line-height: 40px;
+	text-align:center;
+}
+
+.titles
+{
+	font-family: Armata Regular;
+	font-size: 30px;
+}
+
+table
+{
+	border: 0px;
+	width: 50%;
+	margin: auto;
+	color: white;
+	font-family: Armata Regular;
+	font-size: 17px;
+}
+
+td
+{
+	text-align:left;
+	padding-left:50px;
+}
+
+tr, td
+{
+	width: 50%;
+	height: 50px;
+	border: 0px;
+	border-spacing: 0px;
+	background-color: rgba(41,128,185,0.5);
+}
+
+input
+{
+	border: 0px;
+	font-family: Armata Regular;
+	font-size: 20px;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	background-color:rgba(41,128,185,0.5);
+	color:white;
+}
+
+input[type="submit"]
+{
+	width:100px;
+}
+
+::-webkit-input-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}
+::-moz-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}
+input:-moz-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}
+:-ms-input-placeholder
+{
+	font-family: Armata Regular;
+	font-size: 20px;
+	color:#C8C8C8;
+}

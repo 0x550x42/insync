@@ -1,0 +1,103 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	/overflow-x: hidden;
+	/overflow-y: scroll;
+}
+
+#content
+{
+	margin: 30px 0px 100px 0px;
+	padding: 0px 20px 0px 20px;
+	font-family: DejaVu Sans Light;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+#heading
+{
+	font-size: 40px;
+}
+
+/* #### For massive displays #### */
+@media only screen and (min-width: 1401px)
+{
+	
+}
+
+/* #### Desktops and Laptops #### */
+@media only screen and (min-width: 1001px) and (max-width: 1400px)
+{
+	
+}
+
+/* #### For tablets in landscape mode #### */
+@media only screen and (min-width: 801px) and (max-width: 1000px)
+{
+	
+}
+
+/* #### For tablets in portrait mode #### */
+@media only screen and (min-width: 401px) and (max-width: 800px)
+{
+	#heading
+	{
+		font-size: 30px;
+	}
+}
+
+/* #### Mobile Phones Wide #### */
+@media only screen and (min-width: 251px) and (max-width: 400px)
+{
+	#content
+	{
+		margin-top: 40px;
+		font-size: 15px;
+	}
+	
+	#heading
+	{
+		font-size: 25px;
+	}
+}
+
+/* #### Mobile Phones Narrow #### */
+@media only screen and (min-width: 176px) and (max-width: 250px)
+{
+	#content
+	{
+		margin-top: 40px;
+		font-size: 15px;
+		padding: 0px 10px 0px 10px;
+		line-height: 25px;
+	}
+	
+	#heading
+	{
+		font-size: 25px;
+	}
+}
+
+/* #### Tiny Display #### */
+@media only screen and (min-width: 1px) and (max-width: 175px)
+{
+	#content
+	{
+		margin-top: 40px;
+		font-size: 15px;
+		padding: 0px 10px 0px 10px;
+		line-height: 25px;
+	}
+	
+	#heading
+	{
+		font-size: 25px;
+	}
+}

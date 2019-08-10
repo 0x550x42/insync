@@ -1,0 +1,78 @@
+@font-face
+{
+	font-family: DestructoBeam BB;
+	src: local(DestructoBeam BB), url('../res/fonts/destructobeambb_reg.ttf') format('opentype');
+}
+
+@font-face
+{
+    font-family: DejaVu Sans;
+    src: local(DejaVu Sans), url('../res/fonts/DejaVuSans.ttf') format('opentype');
+}
+
+@font-face
+{
+	font-family: DejaVu Sans Light;
+	src: local(DejaVu Sans Light), url('../res/fonts/DejaVuSans-ExtraLight.ttf') format('opentype');
+}
+
+@font-face
+{
+	font-family: "Qlassik Medium";
+	src:url("../res/fonts/Qlassik_TB.eot"),url("../res/fonts/Qlassik_TB.woff") format("woff"),url("../res/fonts/Qlassik_TB.ttf") format("truetype"),url("../res/fonts/Qlassik_TB.svg#QlassikMedium") format("svg");
+}
+
+@font-face
+{
+	font-family: "Armata Regular";
+	src:url("../res/fonts/armata-regular.eot"),url("../res/fonts/armata-regular.woff") format("woff"),url("../res/fonts/armata-regular.ttf") format("truetype"),url("../res/fonts/armata-regular.svg#armataregular") format("svg");
+}
+
+
+@viewport
+{
+	width: device-width;
+	user-zoom: no;
+}
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+
+body
+{
+	/*background-image: url(../res/img/textures/bkg2.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-size: auto 100%;
+	background-size: cover;*/
+	background-color: #3498db;
+}
+
+a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: black;
+	text-decoration: none;
+}

@@ -1,0 +1,18 @@
+body
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#content
+{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-family:Armata Regular;
+}
+
+a
+{
+	color: yellow;
+}

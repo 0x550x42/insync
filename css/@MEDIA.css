@@ -1,0 +1,56 @@
+/*
+
+bp_1: 1 - 175         (tiny display)
+bp_2: 176 - 250       (mobile phones narrow)
+bp_3: 251 - 400       (mobile phones wide)
+bp_4: 401 - 800       (tablet portrait)
+bp_5: 801 - 1000      (tablet landscape)
+bp_6: 1001 - 1400     (desktops and laptops)
+bp_7: 1401 - infinity (massive displays)
+
+*/
+
+/* #### Common to all displays preferably bp_1 #### */
+
+
+/* #### bp_1 [Tiny Display] #### */
+@media only screen and (min-width: 1px) and (max-width: 175px)
+{
+	
+}
+
+/* #### bp_2 [Mobile Phones Narrow] #### */
+@media only screen and (min-width: 176px) and (max-width: 250px)
+{
+	
+}
+
+/* #### bp_3 [Mobile Phones Wide] #### */
+@media only screen and (min-width: 251px) and (max-width: 400px)
+{
+	
+}
+
+/* #### bp_4 [Tablets in portrait mode] #### */
+@media only screen and (min-width: 401px) and (max-width: 800px)
+{
+	
+}
+
+/* #### For tablets in landscape mode #### */
+@media only screen and (min-width: 801px) and (max-width: 1000px)
+{
+	
+}
+
+/* #### Desktops and Laptops #### */
+@media only screen and (min-width: 1001px) and (max-width: 1400px)
+{
+	
+}
+
+/* #### For massive displays #### */
+@media only screen and (min-width: 1401px)
+{
+	
+}
