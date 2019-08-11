@@ -10,8 +10,12 @@ The app will sync in up on to all people's devices which were connected wo you a
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-1. Clone this repo in your system.
-2. 
+* Clone this repo in your system
+* Setup any local server which can serve ```php``` and ```mysql```
+* Create a new schema on your database and generate new tables using the structures provided
+* Move the cloned directory to ```www``` or similar location on your server and startup the server
+* Head over the ```localhost``` on any browser
+* You are done
 
 ### Prerequisites
 
