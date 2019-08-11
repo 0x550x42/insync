@@ -10,6 +10,21 @@ The app will sync in up on to all people's devices which were connected wo you a
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Prerequisites
+
+What things you need to install the software on windows and how to install them
+* Apache web server with PHP 5.5 and MySQL
+```
+https://httpd.apache.org/
+```
+* A nice text editor like Notepad++
+```
+https://notepad-plus-plus.org/
+```
+* A web browser (Google Chrome preferred)
+
+### Installation
+
 * Clone this repo in your system
 * Setup any local server which can serve ```php``` and ```mysql```
 * Create a new schema on your database and generate new tables using the structures provided
@@ -17,42 +32,8 @@ These instructions will get you a copy of the project up and running on your loc
 * Head over the ```localhost``` on any browser
 * You are done
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## License
-
-This project is licensed under the MIT License
+* [JavaScript](http://www.dropwizard.io/1.0.2/docs/) - The frontend
+* [PHP](http://www.dropwizard.io/1.0.2/docs/) - The backend
+* [Apache Server](https://maven.apache.org/) - Local server
