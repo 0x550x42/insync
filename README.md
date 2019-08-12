@@ -34,6 +34,6 @@ https://notepad-plus-plus.org/
 
 ## Built With
 
-* Frontend - HTML5 . CSS3 . JavaScript
-* Backend - PHP . MySQL
-* Environment - Windows . Apache Server
+* Frontend : ```HTML5``` - ```CSS3``` - ```JavaScript```
+* Backend : ```PHP``` - ```MySQL```
+* Dev Environment : ```Windows``` - ```Apache Server``` - ```Notepad++```
