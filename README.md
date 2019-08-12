@@ -34,6 +34,6 @@ https://notepad-plus-plus.org/
 
 ## Built With
 
-* [JavaScript](http://www.dropwizard.io/1.0.2/docs/) - The frontend
-* [PHP](http://www.dropwizard.io/1.0.2/docs/) - The backend
-* [Apache Server](https://maven.apache.org/) - Local server
+* Frontend - HTML5 . CSS3 . JavaScript
+* Backend - PHP . MySQL
+* Environment - Windows . Apache Server
