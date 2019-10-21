@@ -17,9 +17,10 @@ What things you need to install the software on windows and how to install them
 ```
 https://httpd.apache.org/
 ```
-* A nice text editor like Notepad++
+* A nice text editor like Notepad++ or VS Code
 ```
 https://notepad-plus-plus.org/
+https://code.visualstudio.com/
 ```
 * A web browser (Google Chrome preferred)
 
